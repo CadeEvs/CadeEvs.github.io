@@ -47,7 +47,56 @@
             "race": "Unknown",
             "age": "Unknown",
             "status": "???",
-            "description": "Skelimm Rawling. <fool_description>"
+            "description": "Skelimm Rawling. fool_description"
+        },
+        "ferren_sumang": {
+            "name": "Ferren Sumang",
+            "race": "ferren_race",
+            "age": "ferren_age",
+            "status": "Alive",
+            "description": "ferren_description"
+        },
+        "verlassen": {
+            "name": "Verlassen",
+            "race": "Elf",
+            "age": "94",
+            "status": "Alive",
+            "description": "verlassen_description"
+        },
+        "galahad": {
+            "name": "Galahad",
+            "race": "galahad_race",
+            "age": "galahad_age",
+            "status": "Alive",
+            "description": "galahad_description"
+        },
+        "thalia": {
+            "name": "Thalia",
+            "race": "thalia_race",
+            "age": "thalia_age",
+            "status": "Alive",
+            "description": "thalia_description"
+        },
+        "elkan_tor": {
+            "name": "Elkan Tor",
+            "race": "elkan_race",
+            "age": "elkan_age",
+            "status": "Alive",
+            "description": "elkan_description"
+        },
+        "violetta": {
+            "name": "Violetta",
+            "race": "violetta_race",
+            "age": "violetta_age",
+            "status": "Alive",
+            "description": "violetta_description"
+        },
+        "bellamy": {
+            "name": "Bellamy",
+            "race": "bellamy_race",
+            "age": "bellamy_age",
+            "status": "Alive",
+            "description": "bellamy_description"
         },
         "template": {
             "name": "Name",
