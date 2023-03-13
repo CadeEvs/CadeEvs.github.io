@@ -34,6 +34,8 @@ function onJsonFetched(json) {
     button.innerHTML = character[1].name;
     character_list.appendChild(button);
   });
+  
+  onCharacterClicked(character_list.children[0]);
 }
 
 function onWindowLoaded() {
