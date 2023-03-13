@@ -1,5 +1,7 @@
 var characters;
 
+var oldClickedButton;
+
 function onCharacterClicked(button) {
   let name_text = document.getElementById("name-text");
   let race_text = document.getElementById("race-text");
@@ -14,6 +16,13 @@ function onCharacterClicked(button) {
   age_text.innerHTML = "Age: " + character.age;
   status_text.innerHTML = "Status: " + character.status;
   description_text.innerHTML = character.description;
+
+  button.classList.add("active");
+
+  if (oldClickedButton != null && oldClickedButton != button) {
+    oldClickedButton.classList.remove("active");
+  }
+  oldClickedButton = button;
 }
 
 function onJsonFetched(json) {
