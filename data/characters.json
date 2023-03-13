@@ -4,18 +4,28 @@
             "name": "Garadyn Montauk",
             "race": "Human",
             "age": 38,
+            "status": "Alive",
             "description": "Garadyn is the current head of AFPA, and is situated in the main HQ in Fairport. He moves around occasionally to take the more difficult jobs in different areas, but does not hunt as much -- much to his dismay -- due to his position requiring him to manage others more. He is a skilled and powerful Dread Hunter who earned his place at the top of AFPA through sheer skill and dedication, and even in his age is still one of the most powerful Dread Hunters currently alive."
         },
         "sylvia_banks": {
             "name": "Sylvia Banks",
             "race": "Half Orc",
             "age": 33,
+            "status": "Alive",
             "description": "Sylvia is a powerful bard who has spent much of her life hunting monsters. While she does not call herself a Dread Hunter, she has been working alongside Garadyn Montauk for a very long time, and the two of them make a powerful duo. Sylvia plays a flute with a humanoid skull at the end, and while she channels her more powerful spells faint screams can almost be heard coming from the instrument. When not using it for disposing of monsters, however, she is a very talented flutist, and often enjoys spending time on her own practicing his songs."
+        },
+        "barrel": {
+            "name": "Barrel",
+            "race": "Half Orc",
+            "age": 23,
+            "status": "Deceased",
+            "description": "Barrel is a large but soft-spoken and gentle member of the nomadic Arpentus peoples, although he has preferred to stick around the camps in Karametus for the time being. He gets his name from the fact that all of his body is contained within the barrel he wears, except for his legs which are covered in leather armor and high boots, and his head which is covered by a second, smaller barrel. He is always willing to share stories of the places he’s been and people he’s met, and on top of that has seen many incredible things while hiding in his barrel. He is a great help to the party by gladly helping share information whenever possible."
         },
         "template": {
             "name": "Name",
             "race": "Race",
             "age": 0,
+            "status": "Alive",
             "description": "Description"
         }
     }
