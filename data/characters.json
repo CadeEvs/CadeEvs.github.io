@@ -114,17 +114,17 @@
         },
         "elkan_tor": {
             "name": "Elkan Tor",
-            "race": "elkan_race",
+            "race": "Firbolg",
             "age": "elkan_age",
             "status": "Alive",
             "connections": "None",
             "description": "elkan_description",
             "group": "Party"
         },
-        "violetta": {
-            "name": "Violetta",
-            "race": "violetta_race",
-            "age": "violetta_age",
+        "violetta_tanzin": {
+            "name": "Violetta Tanzin",
+            "race": "Earth Genasi",
+            "age": "19",
             "status": "Alive",
             "connections": "None",
             "description": "violetta_description",
@@ -139,12 +139,44 @@
             "description": "Trained as a scion of the Briarstone, a noble family established (and presiding over) Briarton. He enlisted into the AFPA in order to build his experience fighting monsters and the occult, as well as to try to help build his families wealth, connections, and reputation, but was called back to his families side (and thus putting his involvement with the AFPA on presumably, or at least at current, perpetual pause) mere months after formally being accepted into the AFPA proper, due to his family urgently needing him.",
             "group": "Legacy"
         },
+        "flint_nygrund": {
+            "name": "Flint Nyrgund",
+            "race": "Gnome",
+            "age": 28,
+            "status": "Alive",
+            "description": "A new and upcoming Dread Hunter who has really made a name for himself with his unorthodox methods. While most hunters use conventional means like strategy, or martial weaponry, or magic, Flint instead uses explosives. This has landed him some small amount of fame at the AFPA, and has helped him start a business of creating and distributing these explosives.\nThe party helped open his business with some investments, asking for a portion of his profits in exchange. Since then he has devoted most of his time to his business, finding more satisfaction in making tools and weapons for his fellow hunters than going into the field himself.",
+            "group": "AFPA"
+        },
+        "elliot_hopworth": {
+            "name": "Elliot Hopworth",
+            "race": "Human?",
+            "age": "25?",
+            "status": "Alive",
+            "description": "A cheery and somewhat obnoxious man who has a real passion for skin care. Some may find this ironic considering that he no longer has any skin, but he would fail to notice the irony. When he was a very young adult, he decided that he felt confined in his skin -- literally -- and that it was too much of a hastle, so he took it off. Since then he has attempted to live a normal life, although it is hard to do so when everyone who sees you is terrified. \nHis true passion is skin care, and he dreams of sharing his products with everyone around the world so that they will no longer need to feel weighed down by their own skin. It is currently unknown if his aspirations are genuine or backed by his desire to cause fear, as he is an avatar of The Flesh.",
+            "group": "Other"
+        },
+        "roselia_baltunii": {
+            "name": "Roselia Baltunii",
+            "race": "Half-Elf",
+            "age": 28,
+            "status": "Alive",
+            "description": "Roselia, or Rosie, is one of the longest standing receptionists at The AFPA. Because she is a little short for her size and very soft spoken, she is often overlooked by others, not that she minds. Rosie prefers to hang in the background, watching the world around her instead of participating. It's this inclination that landed her a spot as the receptionist, being perfectly content with watching the Dread Hunters do their work without having to get too involved.",
+            "group": "AFPA"
+        },
+        "tova_narlack": {
+            "name": "Tova Narlack",
+            "race": "Goblin",
+            "age": 29,
+            "status": "Alive",
+            "description": "Not much is known about this secretive goblin. He tends to keep to himself, not being one for conversation or social interaction. He seems to spend much of his time in the woods, preparing his weaponry to dull it against the hide of a Dread Monster, usually one associated with The Corruption. As long as you share his ideals, he's friendly enough and willing to help. Otherwise he is uncaring at best and a dangerous threat at worst.",
+            "group": "Other"
+        },
         "template": {
-            "name": "Name",
-            "race": "Race",
+            "name": "",
+            "race": "",
             "age": 0,
             "status": "Alive",
-            "description": "Description",
+            "description": "",
             "group": "Other",
             "is_debug": true
         }
