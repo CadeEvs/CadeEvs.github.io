@@ -1,0 +1,22 @@
+{
+    "characters": {
+        "garadyn_montauk": {
+            "name": "Garadyn Montauk",
+            "race": "Human",
+            "age": 38,
+            "description": "Garadyn is the current head of AFPA, and is situated in the main HQ in Fairport. He moves around occasionally to take the more difficult jobs in different areas, but does not hunt as much -- much to his dismay -- due to his position requiring him to manage others more. He is a skilled and powerful Dread Hunter who earned his place at the top of AFPA through sheer skill and dedication, and even in his age is still one of the most powerful Dread Hunters currently alive."
+        },
+        "sylvia_banks": {
+            "name": "Sylvia Banks",
+            "race": "Half Orc",
+            "age": 33,
+            "description": "Sylvia is a powerful bard who has spent much of her life hunting monsters. While she does not call herself a Dread Hunter, she has been working alongside Garadyn Montauk for a very long time, and the two of them make a powerful duo. Sylvia plays a flute with a humanoid skull at the end, and while she channels her more powerful spells faint screams can almost be heard coming from the instrument. When not using it for disposing of monsters, however, she is a very talented flutist, and often enjoys spending time on her own practicing his songs."
+        },
+        "template": {
+            "name": "Name",
+            "race": "Race",
+            "age": 0,
+            "description": "Description"
+        }
+    }
+}
