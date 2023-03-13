@@ -123,7 +123,8 @@
             "race": "Race",
             "age": 0,
             "status": "Alive",
-            "description": "Description"
+            "description": "Description",
+            "is_debug": true
         }
     }
 }

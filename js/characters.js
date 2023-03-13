@@ -39,6 +39,10 @@ function onJsonFetched(json) {
   character_list.innerHTML = "";
 
   Object.entries(characters).forEach(character => {
+    if (character.is_debug == true) {
+      continue;
+    }
+
     let button = document.createElement("button");
     button.classList.add("list-group-item");
     button.classList.add("list-group-item-action");
