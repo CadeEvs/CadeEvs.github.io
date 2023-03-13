@@ -10,6 +10,38 @@
             "name": "The Slaughter",
             "description": "The fear of pure, unpredictable, unprovoked violence. This fear often manifests in very straightforward ways, making it very predictable in a fight."
         },
+        "hunt": {
+            "name": "The Hunt",
+            "description": "The fear of being chased, stalked, or hunted. Similarly to The Slaughter and The Desolation, manifestations of The Hunt are often fairly straightforward to fight."
+        },
+        "desolation": {
+            "name": "The Desolation",
+            "description": "The fear of pain, loss, and destruction, especially with little to no cause or reason. While slightly more dangerous than its counterparts, The Desolation manifests in very simple ways, much like The Hunt and The Slaughter."
+        },
+        "buried": {
+            "name": "The Buried",
+            "description": "The fear of small spaces, suffocating, drowning, and being buried alive. Manifestations of The Buried are less often monsters and more so experiences or magic items, making it difficult to deal with."
+        },
+        "dark": {
+            "name": "The Dark",
+            "description": "The fear of the dark and what may lurk out of sight. Manifestations of The Dark are generally reminiscent of standard monsters, just a little scarier.<br><br><i>Fun Fact! The Dark and The Hunt are believed to be the oldest of The Fears!</i>"
+        },
+        "end": {
+            "name": "The End",
+            "description": "The fear of death itself, especially the cold, uncaring inevitability of it. The End does not manifest often, as all things must end anyway, so it rarely feels the need to speed things up. However, when it does manifest, it is incredibly dangerous and should not be faced under any circumstances."
+        },
+        "lonely": {
+            "name": "The Lonely",
+            "description": "The fear of isolation, or being cut off from all other contact. The Lonely can be tricky to deal with as its manifestations specialize in separating groups and picking them off one by one. If encountering a manifestation of The Lonely, be sure to constantly stay close to those who you don’t want to lose."
+        },
+        "vast": {
+            "name": "The Vast",
+            "description": "The fear of heights, falling, and large open spaces such as the sky or deep water. In a more niche sense, The Vast also stems from fears of insignificance, and this is where it can become extremely dangerous. Manifestations of The Vast tend to be gargantuan creatures that make everything else pale in comparison. The one upside to these manifestations is that there is a good chance that they simply won’t notice smaller beings, but may be prone to accidentally crushing them in their wake anyway."
+        },
+        "corruption": {
+            "name": "The Corruption",
+            "description": "The fear of disease, filth, and corruption. This final part is the most dangerous, as some of its diseases can be terrifying, but still curable or treatable. Anyone or anything warped by The Corruption, however, may never be the same again, physically or mentally."
+        },
         "template": {
             "name": "",
             "description": "",
