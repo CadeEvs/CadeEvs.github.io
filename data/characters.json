@@ -65,10 +65,10 @@
         },
         "galahad": {
             "name": "Galahad",
-            "race": "galahad_race",
-            "age": "galahad_age",
+            "race": "Variant Human",
+            "age": "24",
             "status": "Alive",
-            "description": "galahad_description"
+            "description": "Having had formal schooling at [insert place here] for the better part of his life, (sage background) before finding employment as a field research at the SFIA, where he was seconded to the AFPA in order to further his research opportunities."
         },
         "thalia": {
             "name": "Thalia",
@@ -91,12 +91,12 @@
             "status": "Alive",
             "description": "violetta_description"
         },
-        "bellamy": {
-            "name": "Bellamy",
-            "race": "bellamy_race",
+        "bellamy_briarstone": {
+            "name": "Bellamy Briarstone",
+            "race": "Human",
             "age": "bellamy_age",
             "status": "Alive",
-            "description": "bellamy_description"
+            "description": "Trained as a scion of the Briarstone, a noble family established (and presiding over) Briarton. He enlisted into the AFPA in order to build his experience fighting monsters and the occult, as well as to try to help build his families wealth, connections, and reputation, but was called back to his families side (and thus putting his involvement with the AFPA on presumably, or at least at current, perpetual pause) mere months after formally being accepted into the AFPA proper, due to his family urgently needing him."
         },
         "template": {
             "name": "Name",
