@@ -1,0 +1,19 @@
+{
+    "template": {
+    },
+    "characters": {
+        "flesh": {
+            "name": "The Flesh",
+            "description": "The fear of your own innards, particularly how they may be perverted, taken, or desecrated. This fear stems mostly from livestock bred for meat, but is also prevalent among people who are disturbed by the realization that they are nothing more than a soul trapped in some meat."
+        },
+        "slaughter": {
+            "name": "The Slaughter",
+            "description": "The fear of pure, unpredictable, unprovoked violence. This fear often manifests in very straightforward ways, making it very predictable in a fight."
+        },
+        "template": {
+            "name": "",
+            "description": "",
+            "is_debug": true
+        }
+    }
+}
