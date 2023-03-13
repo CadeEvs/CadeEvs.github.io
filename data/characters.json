@@ -47,7 +47,7 @@
             "race": "Unknown",
             "age": "Unknown",
             "status": "???",
-            "description": "Skelimm Rawling. Avoid at all costs."
+            "description": "Skelimm Rawling. <fool_description>"
         },
         "template": {
             "name": "Name",
