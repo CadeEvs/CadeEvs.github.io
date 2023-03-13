@@ -40,7 +40,7 @@ function onJsonFetched(json) {
 
   Object.entries(characters).forEach(character => {
     if (character.is_debug == true) {
-      continue;
+      return;
     }
 
     let button = document.createElement("button");
