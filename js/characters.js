@@ -39,7 +39,7 @@ function onJsonFetched(json) {
   character_list.innerHTML = "";
 
   Object.entries(characters).forEach(character => {
-    if (character.is_debug == true) {
+    if (character[1].is_debug == true) {
       return;
     }
 
