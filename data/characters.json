@@ -5,6 +5,13 @@
         "status": "Status: ",
         "connections": "Known Connections: "
     },
+    "groups": [
+        "Party",
+        "AFPA",
+        "Flametouched",
+        "Legacy",
+        "Other"
+    ],
     "characters": {
         "garadyn_montauk": {
             "name": "Garadyn Montauk",
@@ -12,7 +19,8 @@
             "age": 38,
             "status": "Alive",
             "connections": "None",
-            "description": "The current head of AFPA, and is situated in the main HQ in Fairport. He moves around occasionally to take the more difficult jobs in different areas, but does not hunt as much -- much to his dismay -- due to his position requiring him to manage others more. He is a skilled and powerful Dread Hunter who earned his place at the top of AFPA through sheer skill and dedication, and even in his age is still one of the most powerful Dread Hunters currently alive."
+            "description": "The current head of AFPA, and is situated in the main HQ in Fairport. He moves around occasionally to take the more difficult jobs in different areas, but does not hunt as much -- much to his dismay -- due to his position requiring him to manage others more. He is a skilled and powerful Dread Hunter who earned his place at the top of AFPA through sheer skill and dedication, and even in his age is still one of the most powerful Dread Hunters currently alive.",
+            "group": "AFPA"
         },
         "sylvia_banks": {
             "name": "Sylvia Banks",
@@ -20,7 +28,8 @@
             "age": 33,
             "status": "Alive",
             "connections": "None",
-            "description": "A powerful bard who has spent much of her life hunting monsters. While she does not call herself a Dread Hunter, she has been working alongside Garadyn Montauk for a very long time, and the two of them make a powerful duo.<br><br>She plays a flute with a humanoid skull at the end, and while she channels her more powerful spells faint screams can almost be heard coming from the instrument. When not using it for disposing of monsters, however, she is a very talented flutist, and often enjoys spending time on her own practicing his songs."
+            "description": "A powerful bard who has spent much of her life hunting monsters. While she does not call herself a Dread Hunter, she has been working alongside Garadyn Montauk for a very long time, and the two of them make a powerful duo.<br><br>She plays a flute with a humanoid skull at the end, and while she channels her more powerful spells faint screams can almost be heard coming from the instrument. When not using it for disposing of monsters, however, she is a very talented flutist, and often enjoys spending time on her own practicing his songs.",
+            "group": "AFPA"
         },
         "barrel": {
             "name": "Barrel",
@@ -28,7 +37,8 @@
             "age": 23,
             "status": "Deceased",
             "connections": "None",
-            "description": "A large but soft-spoken and gentle member of the nomadic Arpentus peoples, although he has preferred to stick around the camps in Karametus for the time being. He gets his name from the fact that all of his body is contained within the barrel he wears, except for his legs which are covered in leather armor and high boots, and his head which is covered by a second, smaller barrel.<br><br>He is always willing to share stories of the places he’s been and people he’s met, and on top of that has seen many incredible things while hiding in his barrel. He is a great help to the party by gladly helping share information whenever possible."
+            "description": "A large but soft-spoken and gentle member of the nomadic Arpentus peoples, although he has preferred to stick around the camps in Karametus for the time being. He gets his name from the fact that all of his body is contained within the barrel he wears, except for his legs which are covered in leather armor and high boots, and his head which is covered by a second, smaller barrel.<br><br>He is always willing to share stories of the places he’s been and people he’s met, and on top of that has seen many incredible things while hiding in his barrel. He is a great help to the party by gladly helping share information whenever possible.",
+            "group": "Other"
         },
         "adeline_manius": {
             "name": "Adeline Manius",
@@ -36,7 +46,8 @@
             "age": 113,
             "status": "Alive",
             "connections": "None",
-            "description": "One of the leaders of the Flametouched and a powerful Avatar. On the outside, she looks like a kindly old woman with helpful advice to share, but she is a powerful manipulator who uses cunning and knowledge to influence the world and people around her for her own gain.<br><br>She refuses to share how she came to her current position, but what little people do know is that at some point during her rise to power she met Jude Asag, and the two have been inseparable ever since."
+            "description": "One of the leaders of the Flametouched and a powerful Avatar. On the outside, she looks like a kindly old woman with helpful advice to share, but she is a powerful manipulator who uses cunning and knowledge to influence the world and people around her for her own gain.<br><br>She refuses to share how she came to her current position, but what little people do know is that at some point during her rise to power she met Jude Asag, and the two have been inseparable ever since.",
+            "group": "Flametouched"
         },
         "jude_asag": {
             "name": "Jude Asag",
@@ -44,7 +55,8 @@
             "age": 98,
             "status": "Alive",
             "connections": "The Desolation",
-            "description": "Jude, or Judy, is one of the leaders of the Flametouched and a powerful Avatar of The Desolation. Despite her age and the lifespan of most tieflings, she appears to be somewhat younger than Adeline, which she attributes to her connection with The Desolation. With a gruff disposition and sadistic tendencies, she works great as the brawns to Adeline’s brains. As much as she loves Adeline, she does often feel trapped by her, which she fears is Adeline controlling her. To Adeline’s credit, however, tieflings are sparse enough to mean that a connection to the Flametouched could be apparent, no matter how malleable Judy’s appearance may be at times, so going out herself is a dangerous idea."
+            "description": "Jude, or Judy, is one of the leaders of the Flametouched and a powerful Avatar of The Desolation. Despite her age and the lifespan of most tieflings, she appears to be somewhat younger than Adeline, which she attributes to her connection with The Desolation. With a gruff disposition and sadistic tendencies, she works great as the brawns to Adeline’s brains. As much as she loves Adeline, she does often feel trapped by her, which she fears is Adeline controlling her. To Adeline’s credit, however, tieflings are sparse enough to mean that a connection to the Flametouched could be apparent, no matter how malleable Judy’s appearance may be at times, so going out herself is a dangerous idea.",
+            "group": "Flametouched"
         },
         "tony_and_tommy": {
             "name": "Tony and Tommy",
@@ -52,7 +64,8 @@
             "age": "26 and 29",
             "status": "Alive",
             "connections": "None",
-            "description": "Tony and Tommy first met on a mission for the Flametouched Gang, and have been together ever since. These two are often seen lingering around the trail outpost, terrorizing merchants, committing horrible atrocities, or chatting with each other. They're very kind people if you happen to be on their good side, but otherwise you will likely never want the displeasure of finding them at your doorstep.<br><br>Being particularly chatty, Adeline and Jude assigned them to the trail outpost initially to give the false appearance to adventurers that the Flametouched's thugs were relatively harmless fools. However, once The Fool joined forces with Adeline and Jude, the purpose of their station shifted. They were instead to continue leaking information to the party while simultaneously influencing the party's view of The Flametouched and luring them to the headquarters in Fairport.<br><br>Of the two, Tony is generally more talkative, but also somewhat more dimwitted. He has very few hobbies outside of causing pain and doing his job, but he's been considering joining the knitting circle hosted at the library during the day. Another difference is that of his heritages, he seems to have inherited much more from his elf side than orc, with his form not being small, but still being just stronger than your average human.<br>Tommy is somewhat quieter but also a bit more contemplative than Tony. A couple months after the two got together, Tommy joined the library's special literature program for Flametouched members. Since then he's taken an interest in reading all sorts of books, but is still working on his reading skills. Despite only being human, he is rather large and has been mistaken at times for being part orc or even goliath. Tommy takes these as compliments, as he does put effort into his physical appearance and strength."
+            "description": "Tony and Tommy first met on a mission for the Flametouched Gang, and have been together ever since. These two are often seen lingering around the trail outpost, terrorizing merchants, committing horrible atrocities, or chatting with each other. They're very kind people if you happen to be on their good side, but otherwise you will likely never want the displeasure of finding them at your doorstep.<br><br>Being particularly chatty, Adeline and Jude assigned them to the trail outpost initially to give the false appearance to adventurers that the Flametouched's thugs were relatively harmless fools. However, once The Fool joined forces with Adeline and Jude, the purpose of their station shifted. They were instead to continue leaking information to the party while simultaneously influencing the party's view of The Flametouched and luring them to the headquarters in Fairport.<br><br>Of the two, Tony is generally more talkative, but also somewhat more dimwitted. He has very few hobbies outside of causing pain and doing his job, but he's been considering joining the knitting circle hosted at the library during the day. Another difference is that of his heritages, he seems to have inherited much more from his elf side than orc, with his form not being small, but still being just stronger than your average human.<br>Tommy is somewhat quieter but also a bit more contemplative than Tony. A couple months after the two got together, Tommy joined the library's special literature program for Flametouched members. Since then he's taken an interest in reading all sorts of books, but is still working on his reading skills. Despite only being human, he is rather large and has been mistaken at times for being part orc or even goliath. Tommy takes these as compliments, as he does put effort into his physical appearance and strength.",
+            "group": "Flametouched"
         },
         "the_fool": {
             "name": "The Fool",
@@ -60,7 +73,8 @@
             "age": "Unknown",
             "status": "???",
             "connections": "The Stranger",
-            "description": "Skelimm Rawling. fool_description"
+            "description": "Skelimm Rawling. fool_description",
+            "group": "Other"
         },
         "ferren_sumang": {
             "name": "Ferren Sumang",
@@ -68,7 +82,8 @@
             "age": "ferren_age",
             "status": "Alive",
             "connections": "None",
-            "description": "ferren_description"
+            "description": "ferren_description",
+            "group": "Other"
         },
         "verlassen": {
             "name": "Verlassen",
@@ -76,7 +91,8 @@
             "age": "94",
             "status": "Alive",
             "connections": "The Lonely",
-            "description": "verlassen_description"
+            "description": "verlassen_description",
+            "group": "Party"
         },
         "galahad": {
             "name": "Galahad",
@@ -84,7 +100,8 @@
             "age": "24",
             "status": "Alive",
             "connections": "None",
-            "description": "Having had formal schooling at [insert place here] for the better part of his life, (sage background) before finding employment as a field research at the SFIA, where he was seconded to the AFPA in order to further his research opportunities."
+            "description": "Having had formal schooling at [insert place here] for the better part of his life, (sage background) before finding employment as a field research at the SFIA, where he was seconded to the AFPA in order to further his research opportunities.",
+            "group": "Party"
         },
         "thalia": {
             "name": "Thalia",
@@ -92,7 +109,8 @@
             "age": "thalia_age",
             "status": "Alive",
             "connections": "None",
-            "description": "thalia_description"
+            "description": "thalia_description",
+            "group": "Party"
         },
         "elkan_tor": {
             "name": "Elkan Tor",
@@ -100,7 +118,8 @@
             "age": "elkan_age",
             "status": "Alive",
             "connections": "None",
-            "description": "elkan_description"
+            "description": "elkan_description",
+            "group": "Party"
         },
         "violetta": {
             "name": "Violetta",
@@ -108,7 +127,8 @@
             "age": "violetta_age",
             "status": "Alive",
             "connections": "None",
-            "description": "violetta_description"
+            "description": "violetta_description",
+            "group": "Legacy"
         },
         "bellamy_briarstone": {
             "name": "Bellamy Briarstone",
@@ -116,7 +136,8 @@
             "age": "bellamy_age",
             "status": "Alive",
             "connections": "The Desolation",
-            "description": "Trained as a scion of the Briarstone, a noble family established (and presiding over) Briarton. He enlisted into the AFPA in order to build his experience fighting monsters and the occult, as well as to try to help build his families wealth, connections, and reputation, but was called back to his families side (and thus putting his involvement with the AFPA on presumably, or at least at current, perpetual pause) mere months after formally being accepted into the AFPA proper, due to his family urgently needing him."
+            "description": "Trained as a scion of the Briarstone, a noble family established (and presiding over) Briarton. He enlisted into the AFPA in order to build his experience fighting monsters and the occult, as well as to try to help build his families wealth, connections, and reputation, but was called back to his families side (and thus putting his involvement with the AFPA on presumably, or at least at current, perpetual pause) mere months after formally being accepted into the AFPA proper, due to his family urgently needing him.",
+            "group": "Legacy"
         },
         "template": {
             "name": "Name",
@@ -124,6 +145,7 @@
             "age": 0,
             "status": "Alive",
             "description": "Description",
+            "group": "Other",
             "is_debug": true
         }
     }
