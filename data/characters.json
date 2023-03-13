@@ -1,4 +1,11 @@
 {
+    "template": {
+        "name": "Name: ",
+        "race": "Race: ",
+        "age": "Age: ",
+        "status": "Status: ",
+        "connections": "Known Connections: "
+    },
     "characters": {
         "garadyn_montauk": {
             "name": "Garadyn Montauk",
