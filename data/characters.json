@@ -1,6 +1,5 @@
 {
     "template": {
-        "name": "Name: ",
         "race": "Race: ",
         "age": "Age: ",
         "status": "Status: ",

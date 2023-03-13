@@ -7,8 +7,17 @@ function onCharacterClicked(button) {
   let character = characters[button.id];
 
   Object.entries(character).forEach(attribrute => {
-    let text = document.getElementById(attribrute[0] + "-text");
-    text.innerHTML = template[attribrute[0]] + attribrute[1];
+    let attributeKey = attribrute[0]
+
+    let text = document.getElementById(attributeKey + "-text");
+    
+    if (template[attributeKey] != undefined) {
+      text.innerHTML = "<b>" + template[attributeKey] + "</b>" + attribrute[1];
+    }
+    else {
+      text.innerHTML = attribrute[1];
+    }
+    
   });
 
   // select and unselected old button if there is one
