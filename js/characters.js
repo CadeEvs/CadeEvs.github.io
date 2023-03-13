@@ -4,6 +4,7 @@ function onCharacterClicked(button) {
   let name_text = document.getElementById("name-text");
   let race_text = document.getElementById("race-text");
   let age_text = document.getElementById("age-text");
+  let status_text = document.getElementById("status-text");
   let description_text = document.getElementById("description-text");
 
   let character = characters[button.id];
@@ -11,6 +12,7 @@ function onCharacterClicked(button) {
   name_text.innerHTML = character.name;
   race_text.innerHTML = "Race: " + character.race;
   age_text.innerHTML = "Age: " + character.age;
+  status_text.innerHTML = "Status: " + character.status;
   description_text.innerHTML = character.description;
 }
 
