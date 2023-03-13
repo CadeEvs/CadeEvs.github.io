@@ -1,0 +1,92 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@CadeEvs 
+GoesToEleven
+/
+html-css
+Public
+Fork your own copy of GoesToEleven/html-css
+Code
+Issues
+Pull requests
+2
+Actions
+Projects
+Security
+Insights
+html-css/.gitignore
+@GoesToEleven
+GoesToEleven first commit
+Latest commit ec80a45 on Jan 16, 2016
+ History
+ 1 contributor
+48 lines (39 sloc)  522 Bytes
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+# WebStorm
+*.iml
+
+# Directory-based project format:
+.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+# mac hidden files
+.DS_Store
+
+##other
+#node_modules/
+#bower_components/
+.tmp
+#.sass-cache
+#builds/**/images/*
+#*.ogg
+#*.mp3
+#*.mp4
+#*.png
+#*.jpeg
+*.psd
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
