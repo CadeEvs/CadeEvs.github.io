@@ -101,4 +101,4 @@ function onWindowLoaded() {
         .then((data) => onJsonFetched(data));
 }
 
-window.onload = onWindowLoaded;
+window.addEventListener("load", onWindowLoaded);
