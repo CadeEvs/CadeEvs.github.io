@@ -30,8 +30,8 @@
         },
         "trail_outpost": {
             "name": "Trail Outpost",
-            "poi": "",
-            "description": ""
+            "poi": "The whole area is very nice as a reliable rest stop, which can be very helpful for Dread Hunters who find themselves frequently taking jobs in different towns. On top of that, the merchants can help restock supplies used while traveling, albeit at a slightly higher price than what you might find in a town.  ",
+            "description": "The Trail Outpost is a small camp very similar to the Arpentus Camps, but with almost no permanent fixtures. The whole area is mostly just a large campground off of the main trail between towns where enough travelers and adventurers have gathered to deem it safe. The main area is mostly just tents and cots strewn about by those who need a safe night’s rest, but off closer to the road there are many merchant booths selling food, drinks, and the occasional general goods such as ropes, lamp oil, bombs (not really), etc. The whole area is mostly safe due to how many of the people there are adventurers looking to make a name as heroes. Even still, there have been a few merchants who report having to pay an exorbitant “toll” on the way, with some serious threats being made if they refuse."
         },
         "blackwood_ruins": {
             "name": "Blackwood Ruins",
