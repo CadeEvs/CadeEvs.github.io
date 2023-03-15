@@ -10,13 +10,13 @@ function onCharacterClicked(button) {
         return;
     }
 
-    let character = characterData[button.id];
+    const character = characterData[button.id];
 
     // update attribute texts
     Object.entries(character).forEach(attribrute => {
-        let attributeKey = attribrute[0]
+        const attributeKey = attribrute[0]
 
-        let text = document.getElementById(attributeKey + "-text");
+        const text = document.getElementById(attributeKey + "-text");
         if (text == undefined) {
             return;
         }
@@ -36,6 +36,13 @@ function onCharacterClicked(button) {
         selectedCharacterButton.classList.remove("active");
     }
     selectedCharacterButton = button;
+}
+
+function selectFirstGroup(groupsList) {
+    const firstGroup = groupsList.children[0];
+    const characterList = firstGroup.getRootNode().getElementById("characterList");
+    
+    onCharacterClicked(characterList.children[0]);
 }
 
 function createCharacterButtons(group) {
@@ -76,6 +83,8 @@ function createGroups() {
         
         groupsList.appendChild(newGroup);
     });
+    
+    selectFirstGroup(groupsList);
 }
 
 function onJsonFetched(json) {
