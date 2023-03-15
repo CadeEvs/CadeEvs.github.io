@@ -20,9 +20,9 @@
 
 <body>
     <template id="groupTemplate">
-        <div class="p-2">
+        <div class="p-2 w-50">
             <h5 id="groupName" class="text-center">Group</h5>
-            <div id="characterList" class="list-group list-group-horizontal">
+            <div id="characterList" class="list-group">
                 <!-- Buttons are dynamically added here -->
             </div>
         </div>
@@ -54,13 +54,12 @@
     <!-- Content -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col border p-5">
-                <div id="groupsList" class="d-flex flex-wrap justify-content-center">
+            <div class="col-sm-3 border p-2">
+                <div id="groupsList" class="d-flex flex-wrap">
                     <!-- Groups are dynamically added here -->
                 </div>
-               
             </div>
-            <div class="col-sm-5 border border-start-0 p-2">
+            <div class="col border border-start-0 p-2">
                 <div class="container-fluid">
                     <h2 id="name-text">Elkan Tor</h2>
                     <p id="race-text" class="m-0">Race: Test</p>

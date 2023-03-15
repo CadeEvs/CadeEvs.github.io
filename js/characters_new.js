@@ -59,12 +59,6 @@ function createCharacterButtons(group) {
         let button = document.createElement("button");
         button.classList.add("list-group-item");
         button.classList.add("list-group-item-action");
-        
-        // this is a bad fix to make it only wrap on desktop
-        if (window.innerWidth > 576) {
-            button.classList.add("text-nowrap");
-        }
-        
         button.id = character[0];
         button.onclick = function () { onCharacterClicked(button) };
 
