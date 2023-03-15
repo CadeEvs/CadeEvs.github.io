@@ -78,11 +78,11 @@
         },
         "ferren_sumang": {
             "name": "Ferren Sumang",
-            "race": "ferren_race",
-            "age": "ferren_age",
+            "race": "Half Elf",
+            "age": "20",
             "status": "Alive",
             "connections": "None",
-            "description": "ferren_description",
+            "description": "Ferren is the current head of the The SFIA, and currently lives nearby it in Allapon. He is heavily dedicated to his work, taking up the job that his father, his father’s father, and so on have all done in order to learn more about the Dread Powers. However, those who know him know that he’s not just in charge because of nepotism, but because he is one of the most fit people to run the SFIA.",
             "group": "SFIA"
         },
         "verlassen": {
