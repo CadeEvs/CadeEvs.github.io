@@ -6,11 +6,11 @@
         "connections": "Known Connections: "
     },
     "groups": [
-        "Party",
         "AFPA",
         "SFIA",
         "Flametouched",
-        "Other"
+        "Other",
+        "Party"
     ],
     "characters": {
         "garadyn_montauk": {
