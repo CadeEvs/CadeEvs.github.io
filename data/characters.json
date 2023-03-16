@@ -144,7 +144,7 @@
             "race": "Gnome",
             "age": 28,
             "status": "Alive",
-            "description": "A new and upcoming Dread Hunter who has really made a name for himself with his unorthodox methods. While most hunters use conventional means like strategy, or martial weaponry, or magic, Flint instead uses explosives. This has landed him some small amount of fame at the AFPA, and has helped him start a business of creating and distributing these explosives.\nThe party helped open his business with some investments, asking for a portion of his profits in exchange. Since then he has devoted most of his time to his business, finding more satisfaction in making tools and weapons for his fellow hunters than going into the field himself.",
+            "description": "A new and upcoming Dread Hunter who has really made a name for himself with his unorthodox methods. While most hunters use conventional means like strategy, or martial weaponry, or magic, Flint instead uses explosives. This has landed him some small amount of fame at the AFPA, and has helped him start a business of creating and distributing these explosives.<br>The party helped open his business with some investments, asking for a portion of his profits in exchange. Since then he has devoted most of his time to his business, finding more satisfaction in making tools and weapons for his fellow hunters than going into the field himself.",
             "group": "AFPA"
         },
         "elliot_hopworth": {
@@ -152,7 +152,7 @@
             "race": "Human?",
             "age": "25?",
             "status": "Alive",
-            "description": "A cheery and somewhat obnoxious man who has a real passion for skin care. Some may find this ironic considering that he no longer has any skin, but he would fail to notice the irony. When he was a very young adult, he decided that he felt confined in his skin -- literally -- and that it was too much of a hastle, so he took it off. Since then he has attempted to live a normal life, although it is hard to do so when everyone who sees you is terrified. \nHis true passion is skin care, and he dreams of sharing his products with everyone around the world so that they will no longer need to feel weighed down by their own skin. It is currently unknown if his aspirations are genuine or backed by his desire to cause fear, as he is an avatar of The Flesh.",
+            "description": "A cheery and somewhat obnoxious man who has a real passion for skin care. Some may find this ironic considering that he no longer has any skin, but he would fail to notice the irony. When he was a very young adult, he decided that he felt confined in his skin -- literally -- and that it was too much of a hastle, so he took it off. Since then he has attempted to live a normal life, although it is hard to do so when everyone who sees you is terrified. <br>His true passion is skin care, and he dreams of sharing his products with everyone around the world so that they will no longer need to feel weighed down by their own skin. It is currently unknown if his aspirations are genuine or backed by his desire to cause fear, as he is an avatar of The Flesh.",
             "group": "Other"
         },
         "roselia_baltunii": {
@@ -169,6 +169,14 @@
             "age": 29,
             "status": "Alive",
             "description": "Not much is known about this secretive goblin. He tends to keep to himself, not being one for conversation or social interaction. He seems to spend much of his time in the woods, preparing his weaponry to dull it against the hide of a Dread Monster, usually one associated with The Corruption. As long as you share his ideals, he's friendly enough and willing to help. Otherwise he is uncaring at best and a dangerous threat at worst.",
+            "group": "Other"
+        },
+        "speckled_tiefling": {
+            "name": "Speckled Tiefling (Clay)",
+            "race": "Tiefling",
+            "age": "30?",
+            "status": "Alive",
+            "description": "The Speckled Tiefling is a Tiefling who doesn't like using a name, but reluctantly goes by Clay when necessary. Very little is known about their past, both because they refuse to elaborate and seem to not be able to remember themselves. <br>Their appearance varies, but the only constants are that they appear slightly disproportionately wider or taller than normal, have speckled skin that is always two different standard colors for tieflings, and wears very fine clothes.<br><br>They are often seen using Spiral's Alleyways in order to get around. Curiously, they seem to be able to open portals such as door, windows, etc. in order to enter the alleyways. It is unclear whether this is an act of cooperation between the two or if Clay has managed to find a way to forcefully enter The Byways.",
             "group": "Other"
         },
         "template": {
