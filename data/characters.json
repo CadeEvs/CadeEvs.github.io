@@ -64,8 +64,8 @@
             "race": "Half Orc/Elf and Human",
             "age": "26 and 29",
             "status": "Alive",
-            "connections": "None",
-            "description": "Tony and Tommy first met on a mission for the Flametouched Gang, and have been together ever since. These two are often seen lingering around the trail outpost, terrorizing merchants, committing horrible atrocities, or chatting with each other. They're very kind people if you happen to be on their good side, but otherwise you will likely never want the displeasure of finding them at your doorstep.<br><br>Being particularly chatty, Adeline and Jude assigned them to the trail outpost initially to give the false appearance to adventurers that the Flametouched's thugs were relatively harmless fools. However, once The Fool joined forces with Adeline and Jude, the purpose of their station shifted. They were instead to continue leaking information to the party while simultaneously influencing the party's view of The Flametouched and luring them to the headquarters in Fairport.<br><br>Of the two, Tony is generally more talkative, but also somewhat more dimwitted. He has very few hobbies outside of causing pain and doing his job, but he's been considering joining the knitting circle hosted at the library during the day. Another difference is that of his heritages, he seems to have inherited much more from his elf side than orc, with his form not being small, but still being just stronger than your average human.<br>Tommy is somewhat quieter but also a bit more contemplative than Tony. A couple months after the two got together, Tommy joined the library's special literature program for Flametouched members. Since then he's taken an interest in reading all sorts of books, but is still working on his reading skills. Despite only being human, he is rather large and has been mistaken at times for being part orc or even goliath. Tommy takes these as compliments, as he does put effort into his physical appearance and strength.",
+            "connections": "desolation",
+            "description": "Tony and Tommy first met on a mission for the Flametouched Gang, and have been together ever since. These two are often seen lingering around the trail_outpost, terrorizing merchants, committing horrible atrocities, or chatting with each other. They're very kind people if you happen to be on their good side, but otherwise you will likely never want the displeasure of finding them at your doorstep.<br><br>Being particularly chatty, adeline_manius and jude_asag assigned them to the trail outpost initially to give the false appearance to adventurers that the Flametouched's thugs were relatively harmless fools. However, once the_fool joined forces with Adeline and Jude, the purpose of their station shifted. They were instead to continue leaking information to the party while simultaneously influencing the party's view of The Flametouched and luring them to the headquarters in fairport.<br><br>Of the two, Tony is generally more talkative, but also somewhat more dimwitted. He has very few hobbies outside of causing pain and doing his job, but he's been considering joining the knitting circle hosted at the library during the day. Another difference is that of his heritages, he seems to have inherited much more from his elf side than orc, with his form not being small, but still being just stronger than your average human.<br>Tommy is somewhat quieter but also a bit more contemplative than Tony. A couple months after the two got together, Tommy joined the library's special literature program for Flametouched members. Since then he's taken an interest in reading all sorts of books, but is still working on his reading skills. Despite only being human, he is rather large and has been mistaken at times for being part orc or even goliath. Tommy takes these as compliments, as he does put effort into his physical appearance and strength.",
             "group": "Flametouched"
         },
         "the_fool": {
@@ -100,7 +100,7 @@
             "race": "Variant Human",
             "age": "24",
             "status": "Alive",
-            "connections": "None",
+            "connections": "???",
             "description": "Having had formal schooling at [insert place here] for the better part of his life, (sage background) before finding employment as a field research at the sfia, where he was seconded to the afpa in order to further his research opportunities.",
             "group": "Party"
         },
@@ -145,6 +145,7 @@
             "race": "Gnome",
             "age": 28,
             "status": "Alive",
+            "connections": "None",
             "description": "A new and upcoming Dread Hunter who has really made a name for himself with his unorthodox methods. While most hunters use conventional means like strategy, or martial weaponry, or magic, Flint instead uses explosives. This has landed him some small amount of fame at the afpa, and has helped him start a business of creating and distributing these explosives.<br>The party helped open his business with some investments, asking for a portion of his profits in exchange. Since then he has devoted most of his time to his business, finding more satisfaction in making tools and weapons for his fellow hunters than going into the field himself.",
             "group": "AFPA"
         },
@@ -153,6 +154,7 @@
             "race": "Human?",
             "age": "25?",
             "status": "Alive",
+            "connections": "None",
             "description": "A cheery and somewhat obnoxious man who has a real passion for skin care. Some may find this ironic considering that he no longer has any skin, but he would fail to notice the irony. When he was a very young adult, he decided that he felt confined in his skin -- literally -- and that it was too much of a hastle, so he took it off. Since then he has attempted to live a normal life, although it is hard to do so when everyone who sees you is terrified. <br>His true passion is skin care, and he dreams of sharing his products with everyone around the world so that they will no longer need to feel weighed down by their own skin. It is currently unknown if his aspirations are genuine or backed by his desire to cause fear, as he is an avatar of The Flesh.",
             "group": "Other"
         },
@@ -161,6 +163,7 @@
             "race": "Half-Elf",
             "age": 28,
             "status": "Alive",
+            "connections": "None",
             "description": "Roselia, or Rosie, is one of the longest standing receptionists at The afpa. Because she is a little short for her size and very soft spoken, she is often overlooked by others, not that she minds. Rosie prefers to hang in the background, watching the world around her instead of participating. It's this inclination that landed her a spot as the receptionist, being perfectly content with watching the Dread Hunters do their work without having to get too involved.",
             "group": "AFPA"
         },
@@ -169,6 +172,7 @@
             "race": "Goblin",
             "age": 29,
             "status": "Alive",
+            "connections": "None",
             "description": "Not much is known about this secretive goblin. He tends to keep to himself, not being one for conversation or social interaction. He seems to spend much of his time in the woods, preparing his weaponry to dull it against the hide of a Dread Monster, usually one associated with The Corruption. As long as you share his ideals, he's friendly enough and willing to help. Otherwise he is uncaring at best and a dangerous threat at worst.",
             "group": "Other"
         },
@@ -177,6 +181,7 @@
             "race": "Tiefling",
             "age": "30?",
             "status": "Alive",
+            "connections": "None",
             "description": "The Speckled Tiefling is a Tiefling who doesn't like using a name, but reluctantly goes by Clay when necessary. Very little is known about their past, both because they refuse to elaborate and seem to not be able to remember themselves. <br>Their appearance varies, but the only constants are that they appear slightly disproportionately wider or taller than normal, have speckled skin that is always two different standard colors for tieflings, and wears very fine clothes.<br><br>They are often seen using spiral's Alleyways in order to get around. Curiously, they seem to be able to open portals such as door, windows, etc. in order to enter the alleyways. It is unclear whether this is an act of cooperation between the two or if Clay has managed to find a way to forcefully enter The Byways.",
             "group": "Other"
         },
@@ -185,6 +190,7 @@
             "race": "",
             "age": "",
             "status": "",
+            "connections": "",
             "description": "The Arenbank Fear Protection Association, also known as the afpa, is a guild of adventurers dedicated to the protection from and eradication of the Fears. Founded nearly 750 years ago by Alistair Arenbank, it is now lead by garadyn_montauk who does everything in his power to keep it smoothly running and help protect the people of Karametus. <br>The headquarters are situated in Fairport, making it very easy for anyone in the highly populated city to send in a bounty whenever necessary. ",
             "group": "Organization"
         },
@@ -193,6 +199,7 @@
             "race": "",
             "age": "",
             "status": "",
+            "connections": "",
             "description": "The Sumang Fear Intelligence Association, also known as the sfia was established nearly 700 years ago, shortly after the fall of Blackwood Keep. It was founded by Elson Sumang, ancestor of ferren_sumang. The sfia is dedicated to learning more about the Fears for the purposes of stopping them, meaning it shares close ties with The afpa, which has a very similar goal.<br>Despite being opposed to the Fears, those within the sfia are occasionally known to be associated with eye.<br>The headquarters are situated in allapon, which serves them well as the high security keeps the researchers out of harms way.",
             "group": "Organization"
         },
