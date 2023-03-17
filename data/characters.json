@@ -10,7 +10,8 @@
         "SFIA",
         "Flametouched",
         "Party",
-        "Other"
+        "Other",
+        "Organization"
     ],
     "characters": {
         "garadyn_montauk": {
@@ -178,6 +179,22 @@
             "status": "Alive",
             "description": "The Speckled Tiefling is a Tiefling who doesn't like using a name, but reluctantly goes by Clay when necessary. Very little is known about their past, both because they refuse to elaborate and seem to not be able to remember themselves. <br>Their appearance varies, but the only constants are that they appear slightly disproportionately wider or taller than normal, have speckled skin that is always two different standard colors for tieflings, and wears very fine clothes.<br><br>They are often seen using Spiral's Alleyways in order to get around. Curiously, they seem to be able to open portals such as door, windows, etc. in order to enter the alleyways. It is unclear whether this is an act of cooperation between the two or if Clay has managed to find a way to forcefully enter The Byways.",
             "group": "Other"
+        },
+        "afpa": {
+            "name": "AFPA",
+            "race": "",
+            "age": "",
+            "status": "",
+            "description": "The Arenbank Fear Protection Association, also known as the AFPA, is a guild of adventurers dedicated to the protection from and eradication of the Fears. Founded nearly 750 years ago by Alistair Arenbank, it is now lead by Garadyn Montauk who does everything in his power to keep it smoothly running and help protect the people of Karametus. <br>The headquarters are situated in Fairport, making it very easy for anyone in the highly populated city to send in a bounty whenever necessary. ",
+            "group": "Organization"
+        },
+        "sfia": {
+            "name": "SFIA",
+            "race": "",
+            "age": 0,
+            "status": "",
+            "description": "The Sumang Fear Intelligence Association, also known as the SFIA was established nearly 700 years ago, shortly after the fall of Blackwood Keep. It was founded by Elson Sumang, ancestor of Ferren Sumang. The SFIA is dedicated to learning more about the Fears for the purposes of stopping them, meaning it shares close ties with The AFPA, which has a very similar goal.<br>Despite being opposed to the Fears, those within the SFIA are occasionally known to be associated with The Eye.<br>The headquarters are situated in Allapon, which serves them well as the high security keeps the researchers out of harms way.",
+            "group": "Organization"
         },
         "template": {
             "name": "",
