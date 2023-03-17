@@ -1,7 +1,7 @@
 // Json Data
-let characterData;
-let groupData;
-let templateData;
+let characters;
+let groups;
+let templates;
 
 let selectedCharacterButton;
 
@@ -10,7 +10,7 @@ function onCharacterClicked(button) {
         return;
     }
 
-    const character = characterData[button.id];
+    const character = characters[button.id];
 
     // update attribute texts
     Object.entries(character).forEach(attribrute => {
@@ -21,11 +21,12 @@ function onCharacterClicked(button) {
             return;
         }
 
-        if (templateData[attributeKey] !== undefined) {
-            text.innerHTML = "<b>" + templateData[attributeKey] + "</b>" + attribrute[1];
+        let attributeText = attribrute[1];
+        if (templates[attributeKey] !== undefined) {
+            text.innerHTML = "<b>" + templates[attributeKey] + "</b>" + attributeText;
         }
         else {
-            text.innerHTML = attribrute[1];
+            text.innerHTML = attributeText;
         }
     });
 
@@ -48,7 +49,7 @@ function selectFirstGroup(groupsList) {
 function createCharacterButtons(group) {
     let characterList = group.getElementById("characterList");
     
-    Object.entries(characterData).forEach(character => {
+    Object.entries(characters).forEach(character => {
         if (character[1].is_debug == true) {
             return;
         }
@@ -72,7 +73,7 @@ function createGroups() {
     
     const template = document.getElementById("groupTemplate").content;
     
-    groupData.forEach(group => {
+    groups.forEach(group => {
         const newGroup = template.cloneNode(true);
         newGroup.id = group;
         
@@ -87,18 +88,14 @@ function createGroups() {
     selectFirstGroup(groupsList);
 }
 
-function onJsonFetched(json) {
-    groupData = json.groups;
-    characterData = json.characters;
-    templateData = json.template;
-
-    createGroups();
-}
-
 function onWindowLoaded() {
-    fetch("https://raw.githubusercontent.com/CadeEvs/CadeEvs.github.io/main/data/characters.json")
-        .then((response) => response.json())
-        .then((data) => onJsonFetched(data));
+    requestCharacterData().then((json) => {
+        groups = json.groups;
+        characters = json.characters;
+        templates = json.template;
+
+        createGroups(); 
+    });
 }
 
 window.addEventListener("load", onWindowLoaded);
