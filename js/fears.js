@@ -1,65 +1,33 @@
-var fears;
-var template;
+let fears;
 
-var oldClickedButton;
+function createFears() {
+    const groupsList = document.getElementById("fear-list");
 
-function onCharacterClicked(button) {
-  let fear = fears[button.id];
+    const template = document.getElementById("fearTemplate").content;
 
-  Object.entries(fear).forEach(attribrute => {
-    let attributeKey = attribrute[0]
+    Object.entries(fears).forEach(fear => {
+        if (fear[1].is_debug == true) {
+            return;
+        }
+        
+        const newFear = template.cloneNode(true);
 
-    let text = document.getElementById(attributeKey + "-text");
-    
-    if (template[attributeKey] != undefined) {
-      text.innerHTML = "<b>" + template[attributeKey] + "</b>" + attribrute[1];
-    }
-    else {
-      text.innerHTML = attribrute[1];
-    }
-    
-  });
+        const fearName = newFear.getElementById("fearName");
+        fearName.innerHTML = fear[1].name;
 
-  // select and unselected old button if there is one
-  button.classList.add("active");
-
-  if (oldClickedButton != null && oldClickedButton != button) {
-    oldClickedButton.classList.remove("active");
-  }
-  oldClickedButton = button;
-}
-
-function onJsonFetched(json) {
-  fears = json.fears;
-  template = json.template;
-  console.log("Initializing...");
-
-  let character_list = document.getElementById("character-list");
-
-  character_list.innerHTML = "";
-
-  Object.entries(fears).forEach(character => {
-    if (character[1].is_debug == true) {
-      return;
-    }
-
-    let button = document.createElement("button");
-    button.classList.add("list-group-item");
-    button.classList.add("list-group-item-action");
-    button.id = character[0];
-    button.onclick = function () { onCharacterClicked(button) };
-
-    button.innerHTML = character[1].name;
-    character_list.appendChild(button);
-  });
-
-  onCharacterClicked(character_list.children[0]);
+        const fearDescription = newFear.getElementById("fearDescription");
+        fearDescription.innerHTML = fear[1].description;
+        
+        groupsList.appendChild(newFear);
+    });
 }
 
 function onWindowLoaded() {
-  fetch("https://raw.githubusercontent.com/CadeEvs/CadeEvs.github.io/main/data/fears.json")
-    .then((response) => response.json())
-    .then((data) => onJsonFetched(data));
+    requestFearData().then((json) => {
+        fears = json.fears;
+        
+        createFears()
+    });
 }
 
 window.addEventListener("load", onWindowLoaded);

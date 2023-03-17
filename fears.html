@@ -20,6 +20,13 @@
 </head>
 
 <body>
+    <template id="fearTemplate">
+        <div class="border m-2 p-2 w-25">
+            <h4 id="fearName" class="text-center">Name</h4>
+            <p id="fearDescription">Description</p>
+        </div>
+    </template>
+
     <div class="container-fluid border border-bottom-0">
         <nav class="navbar navbar-expand-sm">
             <ul class="navbar-nav">
@@ -40,18 +47,7 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-2 border p-0">
-                <div id="character-list" class="list-group list-group-flush">
-                    <!-- Button are dynamically added here -->
-                </div>
-            </div>
-            <div class="col border border-start-0 p-2">
-                <div class="container-fluid">
-                    <h2 id="name-text"></h2>
-                    <p id="description-text"></p>
-                </div>
-            </div>
+        <div id="fear-list" class="d-flex flex-wrap justify-content-center">
         </div>
     </div>
 </body>
