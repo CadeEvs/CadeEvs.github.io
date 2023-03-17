@@ -6,8 +6,8 @@
         "connections": "Known Connections: "
     },
     "groups": [
-        "afpa",
-        "sfia",
+        "AFPA",
+        "SFIA",
         "Flametouched",
         "Party",
         "Other",
@@ -181,7 +181,7 @@
             "group": "Other"
         },
         "afpa": {
-            "name": "afpa",
+            "name": "AFPA",
             "race": "",
             "age": "",
             "status": "",
@@ -189,7 +189,7 @@
             "group": "Organization"
         },
         "sfia": {
-            "name": "sfia",
+            "name": "SFIA",
             "race": "",
             "age": "",
             "status": "",
