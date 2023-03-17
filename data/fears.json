@@ -42,6 +42,22 @@
             "name": "The Corruption",
             "description": "The fear of disease, filth, and corruption. This final part is the most dangerous, as some of its diseases can be terrifying, but still curable or treatable. Anyone or anything warped by The Corruption, however, may never be the same again, physically or mentally."
         },
+        "eye": {
+            "name": "The Eye",
+            "description": "The fear of being watched, followed, exposed, or known. This is generally the least dangerous of The Fears in a physical sense, but victims of The Eye rarely ever see peace again once it has chosen to watch them.<br><br><i>Fun Fact! Of all The Fears, The Eye is responsible for the least deaths on a yearly basis!</i>"
+        },
+        "spiral": {
+            "name": "The Spiral",
+            "description": "The fear of madness, of being lied to, or your mind and senses themselves deceiving you. Oddly enough, it tends to manifest in fractals much of the time, though more often than not it will manifest when someone gets horribly lost, or walks through a door that didn’t exist just a moment ago."
+        },
+        "stranger": {
+            "name": "The Stranger",
+            "description": "The fear of the unknown, the uncanny, and the unfamiliar. It is the creeping feeling that something is just wrong, but you cannot determine what. The Stranger also likes to manifest in ways that play with identity, often warping, stealing, or removing a being’s identity."
+        },
+        "web": {
+            "name": "The Web",
+            "description": "The fear of being trapped or manipulated, and spiders. While spiders are something pretty straightforward to deal with, it is The Web’s other two domains that make it one of the most dangerous Fears. While you may never see it in action, agents of The Web are everywhere, constantly spinning their webs and pulling the right strings, bringing horrible plans into action without anyone knowing. There is no way to know if you are being manipulated or not, and there is almost nothing you can do to stop them."
+        },
         "template": {
             "name": "",
             "description": "",
