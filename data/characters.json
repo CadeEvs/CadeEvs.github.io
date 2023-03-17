@@ -32,7 +32,7 @@
             "description": "A powerful bard who has spent much of her life hunting monsters. While she does not call herself a Dread Hunter, she has been working alongside Garadyn Montauk for a very long time, and the two of them make a powerful duo.<br><br>She plays a flute with a humanoid skull at the end, and while she channels her more powerful spells faint screams can almost be heard coming from the instrument. When not using it for disposing of monsters, however, she is a very talented flutist, and often enjoys spending time on her own practicing his songs.",
             "group": "AFPA"
         },
-        "barrel": {
+        "the_barrel": {
             "name": "Barrel",
             "race": "Half Orc",
             "age": 23,
@@ -46,7 +46,7 @@
             "race": "Half-Elf",
             "age": 113,
             "status": "Alive",
-            "connections": "web",
+            "connections": "the_web",
             "description": "One of the leaders of the Flametouched and a powerful Avatar. On the outside, she looks like a kindly old woman with helpful advice to share, but she is a powerful manipulator who uses cunning and knowledge to influence the world and people around her for her own gain.<br><br>She refuses to share how she came to her current position, but what little people do know is that at some point during her rise to power she met jude_asag, and the two have been inseparable ever since.",
             "group": "Flametouched"
         },
@@ -55,7 +55,7 @@
             "race": "Tiefling",
             "age": 98,
             "status": "Alive",
-            "connections": "desolation",
+            "connections": "the_desolation",
             "description": "Jude, or Judy, is one of the leaders of the Flametouched and a powerful Avatar of The Desolation. Despite her age and the lifespan of most tieflings, she appears to be somewhat younger than Adeline, which she attributes to her connection with The Desolation.<br><br>With a gruff disposition and sadistic tendencies, she works great as the brawns to adeline_manius’s brains. As much as she loves Adeline, she does often feel trapped by her, which she fears is Adeline controlling her. To Adeline’s credit, however, tieflings are sparse enough to mean that a connection to the Flametouched could be apparent, no matter how malleable Judy’s appearance may be at times, so going out herself is a dangerous idea.",
             "group": "Flametouched"
         },
@@ -64,7 +64,7 @@
             "race": "Half Orc/Elf and Human",
             "age": "26 and 29",
             "status": "Alive",
-            "connections": "desolation",
+            "connections": "the_desolation",
             "description": "Tony and Tommy first met on a mission for the Flametouched Gang, and have been together ever since. These two are often seen lingering around the trail_outpost, terrorizing merchants, committing horrible atrocities, or chatting with each other. They're very kind people if you happen to be on their good side, but otherwise you will likely never want the displeasure of finding them at your doorstep.<br><br>Being particularly chatty, adeline_manius and jude_asag assigned them to the trail outpost initially to give the false appearance to adventurers that the Flametouched's thugs were relatively harmless fools. However, once the_fool joined forces with Adeline and Jude, the purpose of their station shifted. They were instead to continue leaking information to the party while simultaneously influencing the party's view of The Flametouched and luring them to the headquarters in fairport.<br><br>Of the two, Tony is generally more talkative, but also somewhat more dimwitted. He has very few hobbies outside of causing pain and doing his job, but he's been considering joining the knitting circle hosted at the library during the day. Another difference is that of his heritages, he seems to have inherited much more from his elf side than orc, with his form not being small, but still being just stronger than your average human.<br><br>Tommy is somewhat quieter but also a bit more contemplative than Tony. A couple months after the two got together, Tommy joined the library's special literature program for Flametouched members. Since then he's taken an interest in reading all sorts of books, but is still working on his reading skills. Despite only being human, he is rather large and has been mistaken at times for being part orc or even goliath. Tommy takes these as compliments, as he does put effort into his physical appearance and strength.",
             "group": "Flametouched"
         },
@@ -73,7 +73,7 @@
             "race": "Unknown",
             "age": "Unknown",
             "status": "???",
-            "connections": "stranger",
+            "connections": "the_stranger",
             "description": "The Fool of Blackwood Keep, or The Fool, is a powerful avatar of The Stranger who goes by no other name. The Fool is a wooden mannequin who has no living organs or body parts of their own, but instead prefers to take pieces from other people. They can often be found with eyeballs smashed onto their face and skin glued carefully onto their own wood, which can look quite convincing until it begins to decay.<br><br>Claiming to be the court jester for the last king of Blackwood, The Fool shows this by preferring to toy with victims until he gets bored, which is when he finishes them off. They are usually extremely and unsettlingly jovial and energetic, except for small bursts of emotion that escape in the middle of sentences.",
             "group": "Other"
         },
@@ -91,7 +91,7 @@
             "race": "Elf",
             "age": "94",
             "status": "Alive",
-            "connections": "lonely",
+            "connections": "the_lonely",
             "description": "verlassen_description",
             "group": "Party"
         },
@@ -136,7 +136,7 @@
             "race": "Human",
             "age": "bellamy_age",
             "status": "Alive",
-            "connections": "desolation",
+            "connections": "the_desolation",
             "description": "Trained as a scion of the Briarstone, a noble family established (and presiding over) Briarton. He enlisted into the afpa in order to build his experience fighting monsters and the occult, as well as to try to help build his families wealth, connections, and reputation, but was called back to his families side (and thus putting his involvement with the afpa on presumably, or at least at current, perpetual pause) mere months after formally being accepted into the afpa proper, due to his family urgently needing him.",
             "group": "Other"
         },
@@ -200,7 +200,7 @@
             "age": "",
             "status": "",
             "connections": "",
-            "description": "The Sumang Fear Intelligence Association, also known as the sfia was established nearly 700 years ago, shortly after the fall of Blackwood Keep. It was founded by Elson Sumang, ancestor of ferren_sumang. The sfia is dedicated to learning more about the Fears for the purposes of stopping them, meaning it shares close ties with The afpa, which has a very similar goal.<br>Despite being opposed to the Fears, those within the sfia are occasionally known to be associated with eye.<br>The headquarters are situated in allapon, which serves them well as the high security keeps the researchers out of harms way.",
+            "description": "The Sumang Fear Intelligence Association, also known as the sfia was established nearly 700 years ago, shortly after the fall of Blackwood Keep. It was founded by Elson Sumang, ancestor of ferren_sumang. The sfia is dedicated to learning more about the Fears for the purposes of stopping them, meaning it shares close ties with The afpa, which has a very similar goal.<br>Despite being opposed to the Fears, those within the sfia are occasionally known to be associated with the_eye.<br>The headquarters are situated in allapon, which serves them well as the high security keeps the researchers out of harms way.",
             "group": "Organization"
         },
         "template": {
