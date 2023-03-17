@@ -6,8 +6,8 @@
         "connections": "Known Connections: "
     },
     "groups": [
-        "AFPA",
-        "SFIA",
+        "afpa",
+        "sfia",
         "Flametouched",
         "Party",
         "Other",
@@ -21,7 +21,7 @@
             "status": "Alive",
             "connections": "None",
             "description": "The current head of the afpa, and is situated in the main HQ in fairport. He moves around occasionally to take the more difficult jobs in different areas, but does not hunt as much -- much to his dismay -- due to his position requiring him to manage others more. He is a skilled and powerful Dread Hunter who earned his place at the top of afpa through sheer skill and dedication, and even in his age is still one of the most powerful Dread Hunters currently alive.",
-            "group": "AFPA"
+            "group": "afpa"
         },
         "sylvia_banks": {
             "name": "Sylvia Banks",
@@ -30,7 +30,7 @@
             "status": "Alive",
             "connections": "None",
             "description": "A powerful bard who has spent much of her life hunting monsters. While she does not call herself a Dread Hunter, she has been working alongside Garadyn Montauk for a very long time, and the two of them make a powerful duo.<br><br>She plays a flute with a humanoid skull at the end, and while she channels her more powerful spells faint screams can almost be heard coming from the instrument. When not using it for disposing of monsters, however, she is a very talented flutist, and often enjoys spending time on her own practicing his songs.",
-            "group": "AFPA"
+            "group": "afpa"
         },
         "barrel": {
             "name": "Barrel",
@@ -55,7 +55,7 @@
             "race": "Tiefling",
             "age": 98,
             "status": "Alive",
-            "connections": "The Desolation",
+            "connections": "desolation",
             "description": "Jude, or Judy, is one of the leaders of the Flametouched and a powerful Avatar of The Desolation. Despite her age and the lifespan of most tieflings, she appears to be somewhat younger than Adeline, which she attributes to her connection with The Desolation. With a gruff disposition and sadistic tendencies, she works great as the brawns to Adeline’s brains. As much as she loves Adeline, she does often feel trapped by her, which she fears is Adeline controlling her. To Adeline’s credit, however, tieflings are sparse enough to mean that a connection to the Flametouched could be apparent, no matter how malleable Judy’s appearance may be at times, so going out herself is a dangerous idea.",
             "group": "Flametouched"
         },
@@ -73,7 +73,7 @@
             "race": "Unknown",
             "age": "Unknown",
             "status": "???",
-            "connections": "The Stranger",
+            "connections": "stranger",
             "description": "The Fool of Blackwood Keep, or The Fool, is a powerful avatar of The Stranger who goes by no other name. The Fool is a wooden mannequin who has no living organs or body parts of their own, but instead prefers to take pieces from other people. They can often be found with eyeballs smashed onto their face and skin glued carefully onto their own wood, which can look quite convincing until it begins to decay. Claiming to be the court jester for the last king of Blackwood, The Fool shows this by preferring to toy with victims until he gets bored, which is when he finishes them off. They are usually extremely and unsettlingly jovial and energetic, except for small bursts of emotion that escape in the middle of sentences.",
             "group": "Other"
         },
@@ -83,15 +83,15 @@
             "age": "20",
             "status": "Alive",
             "connections": "None",
-            "description": "Ferren is the current head of the The SFIA, and currently lives nearby it in Allapon. He is heavily dedicated to his work, taking up the job that his father, his father’s father, and so on have all done in order to learn more about the Dread Powers. However, those who know him know that he’s not just in charge because of nepotism, but because he is one of the most fit people to run the SFIA.",
-            "group": "SFIA"
+            "description": "Ferren is the current head of the The sfia, and currently lives nearby it in Allapon. He is heavily dedicated to his work, taking up the job that his father, his father’s father, and so on have all done in order to learn more about the Dread Powers. However, those who know him know that he’s not just in charge because of nepotism, but because he is one of the most fit people to run the sfia.",
+            "group": "sfia"
         },
         "verlassen": {
             "name": "Verlassen",
             "race": "Elf",
             "age": "94",
             "status": "Alive",
-            "connections": "The Lonely",
+            "connections": "lonely",
             "description": "verlassen_description",
             "group": "Party"
         },
@@ -101,7 +101,7 @@
             "age": "24",
             "status": "Alive",
             "connections": "None",
-            "description": "Having had formal schooling at [insert place here] for the better part of his life, (sage background) before finding employment as a field research at the SFIA, where he was seconded to the AFPA in order to further his research opportunities.",
+            "description": "Having had formal schooling at [insert place here] for the better part of his life, (sage background) before finding employment as a field research at the sfia, where he was seconded to the afpa in order to further his research opportunities.",
             "group": "Party"
         },
         "thalia": {
@@ -129,15 +129,15 @@
             "status": "Alive",
             "connections": "None",
             "description": "violetta_description",
-            "group": "SFIA"
+            "group": "sfia"
         },
         "bellamy_briarstone": {
             "name": "Bellamy Briarstone",
             "race": "Human",
             "age": "bellamy_age",
             "status": "Alive",
-            "connections": "The Desolation",
-            "description": "Trained as a scion of the Briarstone, a noble family established (and presiding over) Briarton. He enlisted into the AFPA in order to build his experience fighting monsters and the occult, as well as to try to help build his families wealth, connections, and reputation, but was called back to his families side (and thus putting his involvement with the AFPA on presumably, or at least at current, perpetual pause) mere months after formally being accepted into the AFPA proper, due to his family urgently needing him.",
+            "connections": "desolation",
+            "description": "Trained as a scion of the Briarstone, a noble family established (and presiding over) Briarton. He enlisted into the afpa in order to build his experience fighting monsters and the occult, as well as to try to help build his families wealth, connections, and reputation, but was called back to his families side (and thus putting his involvement with the afpa on presumably, or at least at current, perpetual pause) mere months after formally being accepted into the afpa proper, due to his family urgently needing him.",
             "group": "Other"
         },
         "flint_nygrund": {
@@ -145,8 +145,8 @@
             "race": "Gnome",
             "age": 28,
             "status": "Alive",
-            "description": "A new and upcoming Dread Hunter who has really made a name for himself with his unorthodox methods. While most hunters use conventional means like strategy, or martial weaponry, or magic, Flint instead uses explosives. This has landed him some small amount of fame at the AFPA, and has helped him start a business of creating and distributing these explosives.<br>The party helped open his business with some investments, asking for a portion of his profits in exchange. Since then he has devoted most of his time to his business, finding more satisfaction in making tools and weapons for his fellow hunters than going into the field himself.",
-            "group": "AFPA"
+            "description": "A new and upcoming Dread Hunter who has really made a name for himself with his unorthodox methods. While most hunters use conventional means like strategy, or martial weaponry, or magic, Flint instead uses explosives. This has landed him some small amount of fame at the afpa, and has helped him start a business of creating and distributing these explosives.<br>The party helped open his business with some investments, asking for a portion of his profits in exchange. Since then he has devoted most of his time to his business, finding more satisfaction in making tools and weapons for his fellow hunters than going into the field himself.",
+            "group": "afpa"
         },
         "elliot_hopworth": {
             "name": "Elliot Hopworth",
@@ -161,8 +161,8 @@
             "race": "Half-Elf",
             "age": 28,
             "status": "Alive",
-            "description": "Roselia, or Rosie, is one of the longest standing receptionists at The AFPA. Because she is a little short for her size and very soft spoken, she is often overlooked by others, not that she minds. Rosie prefers to hang in the background, watching the world around her instead of participating. It's this inclination that landed her a spot as the receptionist, being perfectly content with watching the Dread Hunters do their work without having to get too involved.",
-            "group": "AFPA"
+            "description": "Roselia, or Rosie, is one of the longest standing receptionists at The afpa. Because she is a little short for her size and very soft spoken, she is often overlooked by others, not that she minds. Rosie prefers to hang in the background, watching the world around her instead of participating. It's this inclination that landed her a spot as the receptionist, being perfectly content with watching the Dread Hunters do their work without having to get too involved.",
+            "group": "afpa"
         },
         "tova_narlack": {
             "name": "Tova Narlack",
@@ -181,19 +181,19 @@
             "group": "Other"
         },
         "afpa": {
-            "name": "AFPA",
+            "name": "afpa",
             "race": "",
             "age": "",
             "status": "",
-            "description": "The Arenbank Fear Protection Association, also known as the AFPA, is a guild of adventurers dedicated to the protection from and eradication of the Fears. Founded nearly 750 years ago by Alistair Arenbank, it is now lead by Garadyn Montauk who does everything in his power to keep it smoothly running and help protect the people of Karametus. <br>The headquarters are situated in Fairport, making it very easy for anyone in the highly populated city to send in a bounty whenever necessary. ",
+            "description": "The Arenbank Fear Protection Association, also known as the afpa, is a guild of adventurers dedicated to the protection from and eradication of the Fears. Founded nearly 750 years ago by Alistair Arenbank, it is now lead by Garadyn Montauk who does everything in his power to keep it smoothly running and help protect the people of Karametus. <br>The headquarters are situated in Fairport, making it very easy for anyone in the highly populated city to send in a bounty whenever necessary. ",
             "group": "Organization"
         },
         "sfia": {
-            "name": "SFIA",
+            "name": "sfia",
             "race": "",
             "age": "",
             "status": "",
-            "description": "The Sumang Fear Intelligence Association, also known as the SFIA was established nearly 700 years ago, shortly after the fall of Blackwood Keep. It was founded by Elson Sumang, ancestor of Ferren Sumang. The SFIA is dedicated to learning more about the Fears for the purposes of stopping them, meaning it shares close ties with The AFPA, which has a very similar goal.<br>Despite being opposed to the Fears, those within the SFIA are occasionally known to be associated with The Eye.<br>The headquarters are situated in Allapon, which serves them well as the high security keeps the researchers out of harms way.",
+            "description": "The Sumang Fear Intelligence Association, also known as the sfia was established nearly 700 years ago, shortly after the fall of Blackwood Keep. It was founded by Elson Sumang, ancestor of Ferren Sumang. The sfia is dedicated to learning more about the Fears for the purposes of stopping them, meaning it shares close ties with The afpa, which has a very similar goal.<br>Despite being opposed to the Fears, those within the sfia are occasionally known to be associated with The Eye.<br>The headquarters are situated in Allapon, which serves them well as the high security keeps the researchers out of harms way.",
             "group": "Organization"
         },
         "template": {
@@ -201,6 +201,7 @@
             "race": "",
             "age": 0,
             "status": "Alive",
+            "connections": "",
             "description": "",
             "group": "Other",
             "is_debug": true

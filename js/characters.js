@@ -22,6 +22,11 @@ function onCharacterClicked(button) {
         }
 
         let attributeText = attribrute[1];
+
+        if (typeof attributeText === "string") {
+            attributeText = getContent(attributeText);
+        }
+        
         if (templates[attributeKey] !== undefined) {
             text.innerHTML = "<b>" + templates[attributeKey] + "</b>" + attributeText;
         }
@@ -89,6 +94,9 @@ function createGroups() {
 }
 
 function onWindowLoaded() {
+    requestLocationData();
+    requestFearData();
+    
     requestCharacterData().then((json) => {
         groups = json.groups;
         characters = json.characters;
