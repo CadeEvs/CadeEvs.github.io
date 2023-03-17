@@ -30,7 +30,7 @@ function onCharacterClicked(button) {
 }
 
 function onJsonFetched(json) {
-  fears = json.characters;
+  fears = json.fears;
   template = json.template;
   console.log("Initializing...");
 

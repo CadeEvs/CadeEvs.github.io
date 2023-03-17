@@ -11,8 +11,14 @@ function getContent(bodyText) {
                 const shortDescription = character.description.substring(0, character.description.indexOf("."));
                 
                 newContent.push("<a data-toggle=\"tooltip\" title=\"" + shortDescription + "\"><u>" + character.name + "</u></a>");
-            } else if (locationData.characters.hasOwnProperty(word)) {
-                const character = locationData.characters[word];
+            } else if (locationData.locations.hasOwnProperty(word)) {
+                const character = locationData.locations[word];
+
+                const shortDescription = character.description.substring(0, character.description.indexOf("."));
+
+                newContent.push("<a data-toggle=\"tooltip\" title=\"" + shortDescription + "\"><u>" + character.name + "</u></a>");
+            } else if (fearData.fears.hasOwnProperty(word)) {
+                const character = fearData.fears[word];
 
                 const shortDescription = character.description.substring(0, character.description.indexOf("."));
 

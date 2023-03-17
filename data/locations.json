@@ -2,7 +2,7 @@
     "template": {
         "poi": "Points of Interest: "
     },
-    "characters": {
+    "locations": {
         "fairport": {
             "name": "Fairport",
             "poi": "If you want to buy something, Fairport has it. Its sprawling bazaars have imports from anywhere you could ask, and its more permanent brick-and-mortar shops will sell you finely crafted wares. \nFairport is also home to several headquarters for various organizations, including the base of operations for the AFPA.",
