@@ -98,13 +98,10 @@ function createGroups() {
     selectFirstGroup(groupsList);
 }
 function onWindowLoaded() {
-    requestLocationData();
-    requestFearData();
-    
-    requestCharacterData().then((json) => {
-        groups = json.groups;
-        characters = json.characters;
-        templates = json.template;
+    requestAllData().then(() => {
+        groups = characterData.groups;
+        characters = characterData.characters;
+        templates = characterData.template;
 
         createGroups(); 
     });

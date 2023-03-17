@@ -51,3 +51,9 @@ async function requestCharacterData() {
     }
     return characterData;
 }
+
+async function requestAllData() {
+    await requestCharacterData();
+    await requestLocationData();
+    await requestFearData();
+}
