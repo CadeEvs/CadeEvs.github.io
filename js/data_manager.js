@@ -13,7 +13,7 @@ async function requestData(dataName, dataUrl) {
     if (sessionStorage.hasOwnProperty(dataName)) {
         data = JSON.parse(sessionStorage.getItem(dataName));
     } else {
-        await fetch(dataUrl)
+        await fetch(dataUrl, {cache: "no-store"})
             .then((response) => response.json())
             .then((fetchedData) => {
                 sessionStorage.setItem(dataName, JSON.stringify(fetchedData));
