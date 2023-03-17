@@ -21,7 +21,7 @@
             "status": "Alive",
             "connections": "None",
             "description": "The current head of the afpa, and is situated in the main HQ in fairport. He moves around occasionally to take the more difficult jobs in different areas, but does not hunt as much -- much to his dismay -- due to his position requiring him to manage others more. He is a skilled and powerful Dread Hunter who earned his place at the top of afpa through sheer skill and dedication, and even in his age is still one of the most powerful Dread Hunters currently alive.",
-            "group": "afpa"
+            "group": "AFPA"
         },
         "sylvia_banks": {
             "name": "Sylvia Banks",
@@ -30,7 +30,7 @@
             "status": "Alive",
             "connections": "None",
             "description": "A powerful bard who has spent much of her life hunting monsters. While she does not call herself a Dread Hunter, she has been working alongside Garadyn Montauk for a very long time, and the two of them make a powerful duo.<br><br>She plays a flute with a humanoid skull at the end, and while she channels her more powerful spells faint screams can almost be heard coming from the instrument. When not using it for disposing of monsters, however, she is a very talented flutist, and often enjoys spending time on her own practicing his songs.",
-            "group": "afpa"
+            "group": "AFPA"
         },
         "barrel": {
             "name": "Barrel",
@@ -84,7 +84,7 @@
             "status": "Alive",
             "connections": "None",
             "description": "Ferren is the current head of the The sfia, and currently lives nearby it in Allapon. He is heavily dedicated to his work, taking up the job that his father, his father’s father, and so on have all done in order to learn more about the Dread Powers. However, those who know him know that he’s not just in charge because of nepotism, but because he is one of the most fit people to run the sfia.",
-            "group": "sfia"
+            "group": "SFIA"
         },
         "verlassen": {
             "name": "Verlassen",
@@ -129,7 +129,7 @@
             "status": "Alive",
             "connections": "None",
             "description": "violetta_description",
-            "group": "sfia"
+            "group": "SFIA"
         },
         "bellamy_briarstone": {
             "name": "Bellamy Briarstone",
@@ -146,7 +146,7 @@
             "age": 28,
             "status": "Alive",
             "description": "A new and upcoming Dread Hunter who has really made a name for himself with his unorthodox methods. While most hunters use conventional means like strategy, or martial weaponry, or magic, Flint instead uses explosives. This has landed him some small amount of fame at the afpa, and has helped him start a business of creating and distributing these explosives.<br>The party helped open his business with some investments, asking for a portion of his profits in exchange. Since then he has devoted most of his time to his business, finding more satisfaction in making tools and weapons for his fellow hunters than going into the field himself.",
-            "group": "afpa"
+            "group": "AFPA"
         },
         "elliot_hopworth": {
             "name": "Elliot Hopworth",
@@ -162,7 +162,7 @@
             "age": 28,
             "status": "Alive",
             "description": "Roselia, or Rosie, is one of the longest standing receptionists at The afpa. Because she is a little short for her size and very soft spoken, she is often overlooked by others, not that she minds. Rosie prefers to hang in the background, watching the world around her instead of participating. It's this inclination that landed her a spot as the receptionist, being perfectly content with watching the Dread Hunters do their work without having to get too involved.",
-            "group": "afpa"
+            "group": "AFPA"
         },
         "tova_narlack": {
             "name": "Tova Narlack",
