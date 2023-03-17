@@ -33,6 +33,11 @@ function onCharacterClicked(button) {
         else {
             text.innerHTML = attributeText;
         }
+
+        // @TODO: This is needed to initialize the tooltips, find a better way to do this maybe?
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
     });
 
     // select and unselected old button if there is one
@@ -92,7 +97,6 @@ function createGroups() {
     
     selectFirstGroup(groupsList);
 }
-
 function onWindowLoaded() {
     requestLocationData();
     requestFearData();
