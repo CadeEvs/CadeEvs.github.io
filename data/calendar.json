@@ -1,0 +1,13 @@
+{
+    "months": [
+        "Se"
+    ],
+    "events": {
+        "test_event": {
+            "name": "Test",
+            "date": 3172023,
+            "time": "7:00pm",
+            "description": "Description to describe the event and what might happen."
+        }
+    }
+}
