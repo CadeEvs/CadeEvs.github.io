@@ -1,10 +1,13 @@
 const characterDataUrl = "https://raw.githubusercontent.com/CadeEvs/CadeEvs.github.io/main/data/characters.json";
 const fearDataUrl = "https://raw.githubusercontent.com/CadeEvs/CadeEvs.github.io/main/data/fears.json";
 const locationDataUrl = "https://raw.githubusercontent.com/CadeEvs/CadeEvs.github.io/main/data/locations.json";
+const calendarDataUrl = "https://raw.githubusercontent.com/CadeEvs/CadeEvs.github.io/main/data/calendar.json";
 
 let fearData;
 let locationData;
 let characterData;
+
+let calendarData;
 
 async function requestData(dataName, dataUrl) {
     let data;
@@ -52,6 +55,15 @@ async function requestCharacterData() {
             });
     }
     return characterData;
+}
+async function requestCalendarData() {
+    if (calendarData === undefined) {
+        await requestData("calendarData", calendarDataUrl)
+            .then((response) => {
+                calendarData = response;
+            });
+    }
+    return calendarData;
 }
 
 async function requestAllData() {

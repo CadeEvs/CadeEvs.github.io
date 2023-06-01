@@ -6,3 +6,8 @@ button.active {
 .navbar-nav .nav-link.active {
     font-weight: bold;
 }
+
+.calendar-body {
+    font-size: 12px;
+    margin-top: 2px;
+}
