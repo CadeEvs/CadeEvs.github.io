@@ -11,7 +11,7 @@
         "Flametouched",
         "Party",
         "Other",
-        "Organization"
+        "Group"
     ],
     "characters": {
         "garadyn_montauk": {
@@ -192,7 +192,7 @@
             "status": "",
             "connections": "",
             "description": "The Arenbank Fear Protection Association, also known as the afpa, is a guild of adventurers dedicated to the protection from and eradication of the Fears. Founded nearly 750 years ago by Alistair Arenbank, it is now lead by garadyn_montauk who does everything in his power to keep it smoothly running and help protect the people of Karametus. <br>The headquarters are situated in Fairport, making it very easy for anyone in the highly populated city to send in a bounty whenever necessary. ",
-            "group": "Organization"
+            "group": "Group"
         },
         "sfia": {
             "name": "SFIA",
@@ -201,7 +201,16 @@
             "status": "",
             "connections": "",
             "description": "The Sumang Fear Intelligence Association, also known as the sfia was established nearly 700 years ago, shortly after the fall of Blackwood Keep. It was founded by Elson Sumang, ancestor of ferren_sumang. The sfia is dedicated to learning more about the Fears for the purposes of stopping them, meaning it shares close ties with The afpa, which has a very similar goal.<br>Despite being opposed to the Fears, those within the sfia are occasionally known to be associated with the_eye.<br>The headquarters are situated in allapon, which serves them well as the high security keeps the researchers out of harms way.",
-            "group": "Organization"
+            "group": "Group"
+        },
+        "flametouched": {
+            "name": "The Flametouched",
+            "race": "",
+            "age": "",
+            "status": "",
+            "connections": "",
+            "description": "The Flametouched are a group, lead in Fairport by jude_asag and adeline_manius.",
+            "group": "Group"
         },
         "template": {
             "name": "",
