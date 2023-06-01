@@ -14,19 +14,20 @@ function onCharacterClicked(button) {
 
     // update attribute texts
     Object.entries(character).forEach(attribrute => {
+        // find element from character key value
         const attributeKey = attribrute[0]
-
         const text = document.getElementById(attributeKey + "-text");
         if (text == undefined) {
             return;
         }
 
+        // if the value of the character key is a string, grab the value as a text
         let attributeText = attribrute[1];
-
         if (typeof attributeText === "string") {
             attributeText = getContent(attributeText);
         }
         
+        // if the character key matches a template, prefix the text with the template text, if not just display the text
         if (templates[attributeKey] !== undefined) {
             text.innerHTML = "<b>" + templates[attributeKey] + "</b>" + attributeText;
         }
@@ -39,7 +40,28 @@ function onCharacterClicked(button) {
             $('[data-toggle="tooltip"]').tooltip();
         });
     });
+    
+    const findingsListElement = document.getElementById("findingsList");
 
+    // check to see if there are any findings and display them if there are
+    if (findingsListElement !== undefined) {
+        // make sure to clear children first
+        findingsListElement.replaceChildren();
+        
+        sessionData.sessions.forEach(session => {
+            session.findings.forEach(finding => {
+                // if the finding id matches the character id, add it
+                if (finding.id === button.id)
+                {
+                    const p2 = document.createElement('p');
+                    p2.innerHTML = "<b>" + session.date + "</b> - " + finding.description;
+
+                    findingsListElement.appendChild(p2);
+                }
+            });
+        });
+    }
+    
     // select and unselected old button if there is one
     button.classList.add("active");
 
@@ -103,7 +125,7 @@ function onWindowLoaded() {
         characters = characterData.characters;
         templates = characterData.template;
 
-        createGroups(); 
+        createGroups();
     });
 }
 
