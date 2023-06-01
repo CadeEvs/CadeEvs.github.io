@@ -65,7 +65,7 @@ function onCharacterClicked(button) {
     // select and unselected old button if there is one
     button.classList.add("active");
 
-    if (selectedCharacterButton != null && selectedCharacterButton != button) {
+    if (selectedCharacterButton != null && selectedCharacterButton !== button) {
         selectedCharacterButton.classList.remove("active");
     }
     selectedCharacterButton = button;
