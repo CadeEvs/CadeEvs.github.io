@@ -1,8 +1,49 @@
 ﻿{
     "template": {
-        "": 1
+        "date": "05/31/2023",
+        "findings": [
+            {
+                "type": "character",
+                "id": "bellamy_briarstone",
+                "description": "The Briarstones are the leaders of the Flametouched group"
+            },
+            {
+                "type": "location",
+                "id": "blackwood_ruins",
+                "description": "Some information we learned that I forgot"
+            },
+            {
+                "type": "encounter",
+                "id": "idk",
+                "description": "Some information we learned that I forgot"
+            }
+        ]
     },
-    "sessions": {
-        
-    }
+    "sessions": [
+        {
+            "date": "05/31/2023",
+            "findings": [
+                {
+                    "type": "location",
+                    "id": "blackwood_ruins",
+                    "description": "Some information we learned that I forgot"
+                },
+                {
+                    "type": "encounter",
+                    "id": "idk",
+                    "description": "Some information we learned that I forgot"
+                }
+            ]
+        },
+        {
+            "date": "05/23/2023",
+            "findings": [
+                {
+                    "type": "character",
+                    "id": "bellamy_briarstone",
+                    "description": "The Briarstones are the leaders of the Flametouched group"
+                }
+            ]
+        }
+    ]
 }
