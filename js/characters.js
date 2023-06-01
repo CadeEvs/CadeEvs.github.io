@@ -27,6 +27,14 @@ function onCharacterClicked(button) {
             attributeText = getContent(attributeText);
         }
         
+        // if the value text is empty, hide the element
+        if (attributeText === "") {
+            text.style.display = "none";
+        }
+        else {
+            text.style.display = "block";
+        }
+        
         // if the character key matches a template, prefix the text with the template text, if not just display the text
         if (templates[attributeKey] !== undefined) {
             text.innerHTML = "<b>" + templates[attributeKey] + "</b>" + attributeText;
