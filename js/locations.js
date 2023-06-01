@@ -19,6 +19,9 @@ function onCharacterClicked(button) {
 
     });
 
+    // check to see if there are any findings and display them if there are
+    addFindingsForEntry(button.id)
+    
     // select and unselected old button if there is one
     button.classList.add("active");
 
@@ -60,6 +63,7 @@ function onJsonFetched(json) {
 }
 
 function onWindowLoaded() {
+    requestSessionData();
     requestLocationData().then((json) => {
         onJsonFetched(json);
     });
