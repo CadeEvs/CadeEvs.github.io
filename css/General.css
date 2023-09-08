@@ -11,3 +11,22 @@ button.active {
     font-size: 12px;
     margin-top: 2px;
 }
+
+.question-circles {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #000; /* Hollow circle border */
+    margin: 10px; /* Adjust as needed */
+}
+
+/* Add a class to make circles opaque when selected */
+.opaque {
+    background-color: #000; /* Change to your desired color */
+}
