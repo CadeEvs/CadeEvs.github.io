@@ -14,7 +14,7 @@ const questionsAndAnswers = [
         ]
     },
     {
-        question: "Should all items be visible on the screen at once or will you need to scroll?",
+        question: "Should all children be visible at once or will you need to scroll?",
         answers: [
             "All visible at once",
             "Need to scroll"
