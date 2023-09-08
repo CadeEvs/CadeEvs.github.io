@@ -24,13 +24,14 @@ const questionsAndAnswers = [
 
 // Elements
 let questionLabel;
+let resultDescription;
 let answer1;
 let answer2;
 
 // Questions
 let hasTileLayout = false;
 let hasStaticChildren = false;
-let isAllVisible = false;
+let doesRequireScroll = false;
 
 let currentQuestion = 0;
 
@@ -57,7 +58,7 @@ function onAnswerClicked(isSecond) {
                 hasStaticChildren = isSecond;
                 break;
             case 2:
-                isAllVisible = isSecond;
+                doesRequireScroll = isSecond;
                 break;
         }
 
@@ -79,7 +80,7 @@ function onAnswerClicked(isSecond) {
 function displayResult() {
     if (hasTileLayout) {
         if (hasStaticChildren) {
-            if (isAllVisible) {
+            if (doesRequireScroll) {
                 questionLabel.textContent = "Wrap Box";
             }
             else {
@@ -87,35 +88,40 @@ function displayResult() {
             }
         }
         else {
-            if (isAllVisible) {
+            if (doesRequireScroll) {
                 questionLabel.textContent = "Dynamic Entry Box";
+                resultDescription.textContent = "A Dynamic Entry Box is the catch all for when you want to generate widgets at runtime, but don't require scrolling or virtualization. Dynamic Entry Box children are pooled, meaning a destroyed child instance can be reused for new children which improves performance and hitching."
             }
             else {
                 questionLabel.textContent = "Tile View";
+                resultDescription.textContent = "A Tile View is good for when you need to generate many children at runtime which can be scrolled through. It supports virtualization meaning only the visible children will be rendered (and ones not visible will be destroyed), which can give you a huge performance boost."
             }
         }
     }
     else {
         if (hasStaticChildren) {
-            if (isAllVisible) {
-                questionLabel.textContent = "Horizontal/Vertical Box";
+            if (doesRequireScroll) {
+                questionLabel.textContent = "Horizontal/Vertical Box with Scroll Box";
             }
             else {
-                questionLabel.textContent = "Horizontal/Vertical Box with Scroll Box";
+                questionLabel.textContent = "Horizontal/Vertical Box";
             }
         }
         else {
-            if (isAllVisible) {
-                questionLabel.textContent = "Dynamic Entry Box";
+            if (doesRequireScroll) {
+                questionLabel.textContent = "List View";
+                resultDescription.textContent = "A List View is good for when you need to generate many children at runtime which can be scrolled through. It supports virtualization meaning only the visible children will be rendered (and ones not visible will be destroyed), which can give you a huge performance boost."
             }
             else {
-                questionLabel.textContent = "List View";
+                questionLabel.textContent = "Dynamic Entry Box";
+                resultDescription.textContent = "A Dynamic Entry Box is the catch all for when you want to generate widgets at runtime, but don't require scrolling or virtualization. Dynamic Entry Box children are pooled, meaning a destroyed child instance can be reused for new children which improves performance and hitching."
             }
         }
     }
 
     answer1.textContent = "Restart";
     answer2.style.visibility = "hidden";
+    resultDescription.style.visibility = "visible";
 }
 
 function displayQuestion() {
@@ -127,12 +133,14 @@ function displayQuestion() {
     answer2.textContent = firstAnswers[1];
 
     answer2.style.visibility = "visible";
+    resultDescription.style.visibility = "hidden";
 }
 
 function onWindowLoaded() {
     questionLabel = document.getElementById("question");
     answer1 = document.getElementById("answer-1");
     answer2 = document.getElementById("answer-2");
+    resultDescription = document.getElementById("result-description");
 
     answer1.onclick = function () {
         onAnswerClicked(false);
