@@ -3,14 +3,14 @@ const questionsAndAnswers = [
         question: "How should the children be laid out?",
         answers: [
             "A horizontal or vertical list",
-            "A grid/tile"
+            "A grid"
         ]
     },
     {
         question: "Will the children be created at runtime or static?",
         answers: [
             "Runtime, while Playing",
-            "Static, created in th designer"
+            "Static, created in the designer"
         ]
     },
     {
@@ -29,7 +29,7 @@ let answer2;
 
 // Questions
 let hasTileLayout = false;
-let hasRuntimeChildren = false;
+let hasStaticChildren = false;
 let isAllVisible = false;
 
 let currentQuestion = 0;
@@ -44,48 +44,41 @@ function onAnswerClicked(isSecond) {
         displayQuestion()
 
         const circles = document.querySelectorAll('.circle');
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 3; i++) {
             circles[i].classList.remove('opaque');
         }
     }
-    
-    switch (currentQuestion) {
-        case 0:
-            hasTileLayout = isSecond;
-            break;
-        case 1:
-            hasRuntimeChildren = isSecond;
-            break;
-        case 2:
-            isAllVisible = isSecond;
-            break;
-    }
-    
-    currentQuestion++;
-    
-    if (currentQuestion === 3) {
-        displayResult();
-        
-        circles[2].classList.add("opaque");
-    }
     else {
-        displayQuestion(currentQuestion);
-        
-        circles[currentQuestion - 1].classList.add("opaque");
+        switch (currentQuestion) {
+            case 0:
+                hasTileLayout = isSecond;
+                break;
+            case 1:
+                hasStaticChildren = isSecond;
+                break;
+            case 2:
+                isAllVisible = isSecond;
+                break;
+        }
+
+        currentQuestion++;
+
+        if (currentQuestion === 3) {
+            displayResult();
+
+            circles[2].classList.add("opaque");
+        }
+        else {
+            displayQuestion(currentQuestion);
+
+            circles[currentQuestion - 1].classList.add("opaque");
+        }
     }
 }
 
 function displayResult() {
     if (hasTileLayout) {
-        if (hasRuntimeChildren) {
-            if (isAllVisible) {
-                questionLabel.textContent = "Dynamic Entry Box";
-            }
-            else {
-                questionLabel.textContent = "Tile View";
-            }
-        }
-        else {
+        if (hasStaticChildren) {
             if (isAllVisible) {
                 questionLabel.textContent = "Wrap Box";
             }
@@ -93,22 +86,30 @@ function displayResult() {
                 questionLabel.textContent = "Wrap Box with Scroll Box";
             }
         }
-    }
-    else {
-        if (hasRuntimeChildren) {
+        else {
             if (isAllVisible) {
                 questionLabel.textContent = "Dynamic Entry Box";
             }
             else {
-                questionLabel.textContent = "List View";
+                questionLabel.textContent = "Tile View";
             }
         }
-        else {
+    }
+    else {
+        if (hasStaticChildren) {
             if (isAllVisible) {
                 questionLabel.textContent = "Horizontal/Vertical Box";
             }
             else {
                 questionLabel.textContent = "Horizontal/Vertical Box with Scroll Box";
+            }
+        }
+        else {
+            if (isAllVisible) {
+                questionLabel.textContent = "Dynamic Entry Box";
+            }
+            else {
+                questionLabel.textContent = "List View";
             }
         }
     }
