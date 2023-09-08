@@ -78,6 +78,8 @@ function onAnswerClicked(isSecond) {
 }
 
 function displayResult() {
+    resultDescription.textContent = "";
+    
     if (hasTileLayout) {
         if (hasStaticChildren) {
             if (doesRequireScroll) {
