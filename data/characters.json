@@ -185,6 +185,15 @@
             "description": "The Speckled Tiefling is a Tiefling who doesn't like using a name, but reluctantly goes by Clay when necessary. Very little is known about their past, both because they refuse to elaborate and seem to not be able to remember themselves. <br>Their appearance varies, but the only constants are that they appear slightly disproportionately wider or taller than normal, have speckled skin that is always two different standard colors for tieflings, and wears very fine clothes.<br><br>They are often seen using spiral's Alleyways in order to get around. Curiously, they seem to be able to open portals such as door, windows, etc. in order to enter the alleyways. It is unclear whether this is an act of cooperation between the two or if Clay has managed to find a way to forcefully enter The Byways.",
             "group": "Other"
         },
+        "sylvester_defisine": {
+            "name": "Sylvester Defisine",
+            "race": "High Elf",
+            "age": "43",
+            "status": "Alive",
+            "connections": "the_lonely",
+            "description": "A tall, slender man who lives in a small cottage just outside of Fairport, near the shore. No one in Karametus can say that they've ever seen him, and that is because he goes out of his way to live a quiet, peaceful life. He mostly to himself, except for the rare few times where he journeys into town to go shopping. However, he seems to have taken an odd fascination in verlassen.",
+            "group": "Other"
+        },
         "afpa": {
             "name": "AFPA",
             "race": "",
